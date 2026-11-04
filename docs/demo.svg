@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <title>TrafficAlive GTA5 — demo illustration: dense believable traffic in Los Santos</title>
+  <defs>
+    <linearGradient id="demoSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1322"/>
+      <stop offset="0.5" stop-color="#0f2b42"/>
+      <stop offset="1" stop-color="#265268"/>
+    </linearGradient>
+    <linearGradient id="demoRoad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#182430"/>
+      <stop offset="1" stop-color="#101821"/>
+    </linearGradient>
+    <linearGradient id="demoVig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#04080f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#04080f" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="demoWin" width="34" height="40" patternUnits="userSpaceOnUse">
+      <rect x="6" y="8" width="12" height="16" fill="#f0b24a" opacity="0.32"/>
+      <rect x="21" y="27" width="12" height="10" fill="#7fd1c8" opacity="0.20"/>
+    </pattern>
+    <filter id="demoGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <g id="car">
+      <path d="M28 18 L44 2 L90 2 L102 18 Z" fill="currentColor"/>
+      <rect x="30" y="4" width="24" height="12" rx="3" fill="#8fd0e6" opacity="0.55"/>
+      <rect x="62" y="5" width="26" height="10" rx="3" fill="#8fd0e6" opacity="0.45"/>
+      <rect x="0" y="16" width="124" height="32" rx="12" fill="currentColor"/>
+      <rect x="2" y="34" width="120" height="8" rx="4" fill="#000000" opacity="0.18"/>
+      <rect x="114" y="26" width="8" height="9" rx="3" fill="#ffe08a"/>
+      <rect x="2" y="27" width="7" height="8" rx="2" fill="#ef4444"/>
+      <circle cx="30" cy="48" r="10" fill="#0d1117"/>
+      <circle cx="30" cy="48" r="4" fill="#46586a"/>
+      <circle cx="96" cy="48" r="10" fill="#0d1117"/>
+      <circle cx="96" cy="48" r="4" fill="#46586a"/>
+    </g>
+    <g id="taxi">
+      <use href="#car" color="#f59e0b"/>
+      <rect x="52" y="-9" width="24" height="9" rx="3" fill="#fafafa"/>
+      <rect x="54" y="-6" width="4" height="5" fill="#111111"/>
+      <rect x="61" y="-6" width="4" height="5" fill="#111111"/>
+      <rect x="68" y="-6" width="4" height="5" fill="#111111"/>
+    </g>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="640" fill="url(#demoSky)"/>
+
+  <circle cx="1000" cy="455" r="150" fill="#f59e0b" opacity="0.16"/>
+  <circle cx="1000" cy="455" r="70" fill="#ffd27d" opacity="0.85" filter="url(#demoGlow)"/>
+
+  <g fill="#16445e" opacity="0.55">
+    <rect x="0" y="262" width="90" height="190"/>
+    <rect x="140" y="202" width="70" height="250"/>
+    <rect x="230" y="282" width="110" height="170"/>
+    <rect x="360" y="222" width="80" height="230"/>
+    <rect x="480" y="292" width="60" height="160"/>
+    <rect x="560" y="192" width="110" height="260"/>
+    <rect x="690" y="252" width="80" height="200"/>
+    <rect x="800" y="282" width="120" height="170"/>
+    <rect x="950" y="212" width="80" height="240"/>
+    <rect x="1050" y="272" width="110" height="180"/>
+    <rect x="1180" y="202" width="100" height="250"/>
+  </g>
+
+  <g>
+    <rect x="90" y="152" width="130" height="300" fill="#0e1c2e"/>
+    <rect x="90" y="152" width="130" height="300" fill="url(#demoWin)" opacity="0.8"/>
+    <rect x="250" y="202" width="110" height="250" fill="#0e1c2e"/>
+    <rect x="250" y="202" width="110" height="250" fill="url(#demoWin)" opacity="0.8"/>
+    <rect x="390" y="112" width="150" height="340" fill="#11233a"/>
+    <rect x="390" y="112" width="150" height="340" fill="url(#demoWin)" opacity="0.85"/>
+    <rect x="580" y="167" width="120" height="285" fill="#0e1c2e"/>
+    <rect x="580" y="167" width="120" height="285" fill="url(#demoWin)" opacity="0.8"/>
+    <rect x="740" y="97" width="160" height="355" fill="#11233a"/>
+    <rect x="740" y="97" width="160" height="355" fill="url(#demoWin)" opacity="0.85"/>
+    <rect x="940" y="152" width="130" height="300" fill="#0e1c2e"/>
+    <rect x="940" y="152" width="130" height="300" fill="url(#demoWin)" opacity="0.8"/>
+    <rect x="1100" y="187" width="140" height="265" fill="#11233a"/>
+    <rect x="1100" y="187" width="140" height="265" fill="url(#demoWin)" opacity="0.8"/>
+    <line x1="465" y1="112" x2="465" y2="90" stroke="#2aa6a0" stroke-width="2" opacity="0.8"/>
+    <circle cx="465" cy="87" r="3" fill="#f43f5e" opacity="0.9" filter="url(#demoGlow)"/>
+    <line x1="820" y1="97" x2="820" y2="76" stroke="#2aa6a0" stroke-width="2" opacity="0.8"/>
+    <circle cx="820" cy="73" r="3" fill="#f43f5e" opacity="0.9" filter="url(#demoGlow)"/>
+  </g>
+
+  <g>
+    <rect x="1166" y="306" width="36" height="60" rx="10" fill="#0d1420" stroke="#3b4a58" stroke-width="1.5"/>
+    <circle cx="1184" cy="318" r="6" fill="#7f1d1d"/>
+    <circle cx="1184" cy="334" r="6" fill="#785712"/>
+    <circle cx="1184" cy="350" r="9" fill="#34d399" opacity="0.55" filter="url(#demoGlow)"/>
+    <circle cx="1184" cy="350" r="6" fill="#34d399"/>
+    <rect x="1180" y="366" width="8" height="86" fill="#33414e"/>
+  </g>
+
+  <rect x="0" y="452" width="1280" height="8" fill="#223140"/>
+  <rect x="0" y="460" width="1280" height="180" fill="url(#demoRoad)"/>
+  <line x1="0" y1="472" x2="1280" y2="472" stroke="#8ea3b6" stroke-opacity="0.4" stroke-width="3"/>
+  <line x1="0" y1="550" x2="1280" y2="550" stroke="#d4b259" stroke-opacity="0.85" stroke-width="4" stroke-dasharray="48 30"/>
+  <line x1="0" y1="628" x2="1280" y2="628" stroke="#8ea3b6" stroke-opacity="0.3" stroke-width="3"/>
+
+  <polygon points="178,518 330,494 330,542" fill="#ffe9b8" opacity="0.10"/>
+  <polygon points="116,606 0,584 0,628" fill="#ffe9b8" opacity="0.10"/>
+
+  <g transform="translate(60,488)"><g color="#e2e8f0"><use href="#car"/></g></g>
+  <g transform="translate(250,488)"><g color="#0ea5e9"><use href="#car"/></g></g>
+  <g transform="translate(445,485) scale(1.06)"><use href="#taxi"/></g>
+  <g transform="translate(640,488)"><g color="#14b8a6"><use href="#car"/></g></g>
+  <g transform="translate(832,491) scale(0.92)"><g color="#7c5cbf"><use href="#car"/></g></g>
+  <g transform="translate(1010,488)"><g color="#2563eb"><use href="#car"/></g></g>
+  <g transform="translate(1180,488)"><g color="#c2410c"><use href="#car"/></g></g>
+
+  <g transform="translate(230,576) scale(-1,1)"><g color="#c0392b"><use href="#car"/></g></g>
+  <g transform="translate(430,578) scale(-1.05,1.05)"><g color="#0ea5e9"><use href="#car"/></g></g>
+  <g transform="translate(630,576) scale(-1,1)"><g color="#f3f4f6"><use href="#car"/></g></g>
+  <g transform="translate(830,576) scale(-1,1)"><use href="#taxi"/></g>
+  <g transform="translate(1030,578) scale(-1.05,1.05)"><g color="#c084fc"><use href="#car"/></g></g>
+  <g transform="translate(1275,576) scale(-1,1)"><g color="#14b8a6"><use href="#car"/></g></g>
+
+  <rect x="0" y="560" width="1280" height="80" fill="url(#demoVig)"/>
+</svg>
