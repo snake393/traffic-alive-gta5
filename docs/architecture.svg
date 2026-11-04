@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="420" viewBox="0 0 1180 420">
+  <title>TrafficAlive GTA5 — architecture scheme</title>
+  <defs>
+    <marker id="archArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#f59e0b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="420" fill="#0b1322"/>
+
+  <text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#64748b">TRAFFICALIVE GTA5 — ARCHITECTURE</text>
+
+  <rect x="35" y="120" width="240" height="200" rx="16" fill="#121d33" stroke="#f59e0b" stroke-width="1.8"/>
+  <path d="M155 152 L179 165 L179 186 L155 199 L131 186 L131 165 Z" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M131 165 L155 177 L179 165 M155 177 L155 199" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="155" y="232" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#f4f7fb">TrafficAlive</text>
+  <text x="155" y="254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#f4f7fb">GTA5 Pack</text>
+  <text x="155" y="282" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#8fa3b8">traffic settings · guide</text>
+
+  <rect x="325" y="120" width="240" height="200" rx="16" fill="#121d33" stroke="#2aa6a0" stroke-width="1.5"/>
+  <path d="M425 184 V162 H441 L447 168 H465 V184 Z" fill="rgba(42,166,160,0.12)" stroke="#2aa6a0" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="445" y="232" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#f4f7fb">GTA V Install</text>
+  <text x="445" y="254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#f4f7fb">Directory (Windows)</text>
+  <text x="445" y="282" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#8fa3b8">folders on the Windows PC</text>
+
+  <rect x="615" y="120" width="240" height="200" rx="16" fill="#121d33" stroke="#2aa6a0" stroke-width="1.5"/>
+  <circle cx="735" cy="172" r="14" fill="none" stroke="#2aa6a0" stroke-width="2.5"/>
+  <circle cx="735" cy="172" r="4.5" fill="none" stroke="#2aa6a0" stroke-width="2.5"/>
+  <line x1="735" y1="152" x2="735" y2="192" stroke="#2aa6a0" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="715" y1="172" x2="755" y2="172" stroke="#2aa6a0" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="735" y1="152" x2="735" y2="192" stroke="#2aa6a0" stroke-width="2.5" stroke-linecap="round" transform="rotate(45 735 172)"/>
+  <line x1="715" y1="172" x2="755" y2="172" stroke="#2aa6a0" stroke-width="2.5" stroke-linecap="round" transform="rotate(45 735 172)"/>
+  <text x="735" y="232" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#f4f7fb">RAGE Engine</text>
+  <text x="735" y="254" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#f4f7fb">(GTA V)</text>
+  <text x="735" y="282" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#8fa3b8">core game engine</text>
+
+  <rect x="905" y="120" width="240" height="200" rx="16" fill="#121d33" stroke="#2aa6a0" stroke-width="1.5"/>
+  <path d="M1008 174 L1018 162 H1036 L1046 174 Z" fill="rgba(42,166,160,0.12)" stroke="#2aa6a0" stroke-width="2.2" stroke-linejoin="round"/>
+  <rect x="997" y="174" width="56" height="13" rx="6" fill="rgba(42,166,160,0.12)" stroke="#2aa6a0" stroke-width="2.2"/>
+  <circle cx="1013" cy="190" r="6" fill="none" stroke="#2aa6a0" stroke-width="2.2"/>
+  <circle cx="1037" cy="190" r="6" fill="none" stroke="#2aa6a0" stroke-width="2.2"/>
+  <text x="1025" y="232" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#f4f7fb">GTA V Story Mode</text>
+  <text x="1025" y="282" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#8fa3b8">Los Santos traffic</text>
+
+  <line x1="281" y1="220" x2="314" y2="220" stroke="#f59e0b" stroke-width="3" marker-end="url(#archArr)"/>
+  <line x1="571" y1="220" x2="604" y2="220" stroke="#f59e0b" stroke-width="3" marker-end="url(#archArr)"/>
+  <line x1="861" y1="220" x2="894" y2="220" stroke="#f59e0b" stroke-width="3" marker-end="url(#archArr)"/>
+
+  <text x="298" y="372" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8fa3b8">unpack into game folder</text>
+  <text x="588" y="372" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8fa3b8">loads at startup</text>
+  <text x="878" y="372" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#8fa3b8">drives the traffic</text>
+
+  <text x="590" y="404" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#526174">GTA V Story Mode · Windows PC</text>
+</svg>
